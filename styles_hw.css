@@ -1,0 +1,144 @@
+body{
+    background-color: blue;
+}
+div.row{
+    padding: 10px;
+}
+div.box{
+    width: 100%;
+    align-content: center !important;
+    text-align:center;
+    margin:0px;
+    padding: 36px 24px 40px 24px;
+    border-radius:7px;
+    background-color:#fff;
+    box-shadow:0 0 0 1px rgba(0,0,0,.15),
+    0 2px 3px 0 rgba(0,0,0,.1);
+    
+}
+#backColor{
+    background-color: lightskyblue;
+}
+
+div.container{
+    width:100%;
+    margin:0px !important;
+    padding-top:4%;
+    padding-bottom:4%;
+    flex-wrap:wrap;
+    overflow:hidden;
+    display:flex;
+}
+
+
+div.box img{
+    display:inline;
+    margin:auto;
+    flex-wrap:wrap;
+    overflow:hidden !important;
+    max-width: 350px;
+    max-height:425px;
+    display:flex;
+  
+    
+
+}
+div.box p{
+    text-align:left;
+    
+}
+
+
+
+div.col-md-6{
+    float: left;
+    width:50%;
+    overflow:hidden;
+    padding:10px;
+    
+}
+
+div.col-md-3{
+    width:50%;
+    padding:4px;
+    overflow:hidden;
+}
+a:hover{
+    background-color:teal !important;
+    
+}
+
+img:hover {  
+    border:2px solid black;  
+    box-shadow: 0 0 10px #333;  
+    -webkit-box-shadow: 0 0 10px #333;  
+    -moz-box-shadow: 0 0 10px #333;  
+    -o-box-shadow: 0 0 10px #333;  
+    -ms-box-shadow: 0 0 10px #333;
+}
+
+
+footer{
+    position: relative;;
+    height:55px;
+    bottom:0;
+    color:#fff;
+    padding-top:20px;
+    width:100%;
+    background: #36312b;
+    background: -webkit-linear-gradient(to right,#31BDE6,#00003E);
+    background: linear-gradient(to right,#4b70f4,#abe01a);
+    text-align:center;
+    width:100%;
+    opacity:.5;
+    
+}
+.pageimg{
+    max-width:450px !important;
+    max-height:550px !important;
+    padding:5px;
+    align-content:center;
+}
+p{
+    padding:5px,5px,5px,5px;
+}
+div.col-md-3.highlight{
+    float:left;
+    width:50%;
+    display:block;
+    margin:auto;
+    padding:4px;
+
+
+}
+div.container.col-md-8{
+    width: 80%;
+    display:wrap;
+    margin-left:35%;
+    padding:0;
+}
+
+div.col-md-3.highlight a img{
+    padding:0,0,0,0;
+}
+.col-md-8{
+    margin:10px,10px,10px,10px;
+    align-content: center;
+    overflow:hidden;
+    padding:20px;
+    position:center;
+    width:100%;
+}
+
+div.col-md-12{
+    position: relative;
+    margin:10px,10px,10px,10px;
+    align-content: center;
+    overflow:hidden;
+    padding:20px;
+}
+.col-md-10{
+    align-content: center;
+    position:relative;
+    display:block;
+}
